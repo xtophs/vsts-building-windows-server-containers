@@ -31,3 +31,6 @@ Now VSTS ready to build Windows Containers using the Build an Image step from th
 
 <i>Still under investigation</i>
 
+## Note
+You have to run onthe VSTS agent on a VM when you're looking to execute docker commands (docker build, docker push, etc. ). You can not run the container based agent from https://github.com/Microsoft/vsts-agent-docker/tree/windows because executing docker commands would require running docker in docker, which is not supported in Windows at the time of writing.
+

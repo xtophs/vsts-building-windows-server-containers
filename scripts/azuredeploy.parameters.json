@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southcentralus"
+        },
+        "virtualMachineName": {
+            "value": "vstsagent"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "adminUsername": {
+            "value": "vstsuser"
+        },
+        "storageAccountName": {
+            "value": "GEN-UNIQUE"
+        },
+        "virtualNetworkName": {
+            "value": "rg-vsts-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "vstsagent869"
+        },
+        "networkSecurityGroupName": {
+            "value": "vstsagent-nsg"
+        },
+        "adminPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "storageAccountType": {
+            "value": "Premium_LRS"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "GEN-UNIQUE"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/deletevstsdiag470"
+        },
+        "addressPrefix": {
+            "value": "10.1.1.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.1.1.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "vstsagent-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}

@@ -15,6 +15,7 @@ Instead of running the agent with admin rights, you could run under a local user
 1. Create a local user (for example using `lusrmgr.msc`)
 
 ![New User](images/newuser.png)
+
 2. Create a local group called docker with that user
 
 ![New Group](images/newgroup.png)
